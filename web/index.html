@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pirater</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The Pirater</h1>
+      <p>Everything you want to watch. Right now.</p>
+      <input id="search" placeholder="Search movie, series, or genre..." />
+    </header>
+
+    <main>
+      <section>
+        <h2>Trending</h2>
+        <div id="cards" class="grid"></div>
+      </section>
+
+      <section id="player-section" class="hidden">
+        <h2 id="player-title"></h2>
+        <video id="player" controls width="100%"></video>
+        <p id="player-meta"></p>
+      </section>
+    </main>
+
+    <button id="feedback">Report dead link</button>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "tmdb-550",
+    "title": "Fight Club",
+    "type": "movie",
+    "year": 1999,
+    "platforms": ["Prime Video", "HBO Max"],
+    "genres": ["Drama", "Thriller"],
+    "poster": "https://image.tmdb.org/t/p/w500/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+    "overview": "An insomniac office worker crosses paths with a soap salesman and descends into chaos.",
+    "runtimeMin": 139
+  },
+  {
+    "id": "tmdb-1399",
+    "title": "Game of Thrones",
+    "type": "series",
+    "year": 2011,
+    "platforms": ["HBO Max"],
+    "genres": ["Fantasy", "Drama"],
+    "poster": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+    "overview": "Noble families wage war for control of the Seven Kingdoms.",
+    "seasons": 8
+  },
+  {
+    "id": "tmdb-120",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "type": "movie",
+    "year": 2001,
+    "platforms": ["Netflix", "Prime Video"],
+    "genres": ["Adventure", "Fantasy"],
+    "poster": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg",
+    "overview": "A young hobbit begins a quest to destroy a powerful ring.",
+    "runtimeMin": 178
+  },
+  {
+    "id": "tmdb-420818",
+    "title": "The Lion King",
+    "type": "movie",
+    "year": 2019,
+    "platforms": ["Disney+"],
+    "genres": ["Family", "Adventure"],
+    "poster": "https://image.tmdb.org/t/p/w500/2bXbqYdUdNVa8VIWXVfclP2ICtT.jpg",
+    "overview": "A young lion prince flees his kingdom only to learn responsibility.",
+    "runtimeMin": 118
+  },
+  {
+    "id": "tmdb-60625",
+    "title": "Rick and Morty",
+    "type": "series",
+    "year": 2013,
+    "platforms": ["Cartoon Network", "HBO Max"],
+    "genres": ["Animation", "Comedy", "Sci-Fi"],
+    "poster": "https://image.tmdb.org/t/p/w500/gdIrmf2DdY5mgN6ycVP0XlzKzbE.jpg",
+    "overview": "A genius scientist and his grandson go on absurd interdimensional adventures.",
+    "seasons": 7
+  },
+  {
+    "id": "tmdb-76600",
+    "title": "Avatar: The Way of Water",
+    "type": "movie",
+    "year": 2022,
+    "platforms": ["Disney+", "Prime Video"],
+    "genres": ["Sci-Fi", "Adventure"],
+    "poster": "https://image.tmdb.org/t/p/w500/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+    "overview": "Jake Sully and family face a renewed threat on Pandora.",
+    "runtimeMin": 192
+  }
+]

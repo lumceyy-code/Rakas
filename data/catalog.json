@@ -1,0 +1,47 @@
+[
+  {
+    "id": "tt1375666",
+    "title": "Inception",
+    "year": 2010,
+    "type": "movie",
+    "genres": ["Sci-Fi", "Thriller"],
+    "rating": 8.8,
+    "overview": "A thief who steals corporate secrets through dream-sharing technology is given an inverse task.",
+    "poster": "https://image.tmdb.org/t/p/w500/8IB2e4r4oVhHnANbnm7O3Tj6tF8.jpg",
+    "streams": [
+      {"provider": "alpha", "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", "quality": ["360p", "720p"]},
+      {"provider": "beta", "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8", "quality": ["720p", "1080p"]}
+    ],
+    "subtitles": [
+      {"lang": "en", "label": "English", "url": "https://raw.githubusercontent.com/videojs/video.js/main/docs/examples/shared/example-captions.vtt"}
+    ]
+  },
+  {
+    "id": "tt0816692",
+    "title": "Interstellar",
+    "year": 2014,
+    "type": "movie",
+    "genres": ["Sci-Fi", "Drama"],
+    "rating": 8.7,
+    "overview": "A team travels through a wormhole in search of a new home for humanity.",
+    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+    "streams": [
+      {"provider": "alpha", "url": "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8", "quality": ["360p", "720p"]}
+    ],
+    "subtitles": []
+  },
+  {
+    "id": "tt0944947",
+    "title": "Game of Thrones",
+    "year": 2011,
+    "type": "series",
+    "genres": ["Fantasy", "Drama"],
+    "rating": 9.2,
+    "overview": "Nine noble families wage war against each other to gain control over the mythical land of Westeros.",
+    "poster": "https://image.tmdb.org/t/p/w500/u3bZgnGQ9T01sWNhyveQz0wH0Hl.jpg",
+    "streams": [
+      {"provider": "beta", "url": "https://test-streams.mux.dev/test_001/stream.m3u8", "quality": ["360p", "720p", "1080p"]}
+    ],
+    "subtitles": []
+  }
+]
