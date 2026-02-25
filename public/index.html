@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Pirater — Legal Discovery Prototype</title>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#07090f" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1"></script>
+  </head>
+  <body>
+    <div class="bg-waves"></div>
+    <header class="topbar">
+      <h1>The Pirater</h1>
+      <p>Unified legal streaming discovery prototype</p>
+      <button id="search-toggle" class="icon-btn" aria-label="Open search">🔎</button>
+    </header>
+
+    <section id="search-island" class="search-island">
+      <input id="search" placeholder="Search title, genre, or platform" />
+      <small id="search-hint">Press / to focus</small>
+    </section>
+
+    <section class="player-shell">
+      <video id="video" controls playsinline></video>
+      <div class="player-row">
+        <p id="stream-status">Remote stream resolver idle.</p>
+        <button id="report-issue" class="issue-btn">Report Issue</button>
+      </div>
+    </section>
+
+    <main class="layout">
+      <aside class="panel">
+        <h2>Filters</h2>
+        <div id="platform-filters" class="chips"></div>
+        <h3>Genre</h3>
+        <div id="genre-filters" class="chips"></div>
+        <label class="download-toggle">
+          <input type="checkbox" id="cloud-download" />
+          Enable cloud download request (optional)
+        </label>
+      </aside>
+
+      <section>
+        <div class="tabs">
+          <button class="tab active" data-tab="discover">Discover</button>
+          <button class="tab" data-tab="watching">Recently Watched</button>
+          <button class="tab" data-tab="finished">Recently Finished</button>
+        </div>
+        <div id="content" class="grid"></div>
+      </section>
+    </main>
+
+    <template id="card-template">
+      <article class="card">
+        <img alt="poster" />
+        <div class="meta">
+          <h4></h4>
+          <p class="sub"></p>
+          <p class="overview"></p>
+          <p class="resume"></p>
+          <div class="actions">
+            <button data-action="play">Play Remote</button>
+            <button data-action="resume">Resume</button>
+            <button data-action="finish">Mark Finished</button>
+            <button data-action="download">Cloud Download</button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="/player.js"></script>
+  </body>
+</html>

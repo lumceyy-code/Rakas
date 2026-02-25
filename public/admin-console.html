@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Console</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="container" style="padding:1rem;max-width:1100px;margin:0 auto;">
+      <h1>Admin Console</h1>
+      <p>Hidden operations dashboard for resolver/proxy health.</p>
+
+      <section class="panel" style="margin-bottom:1rem;">
+        <label>Admin Password</label>
+        <input id="admin-password" type="password" placeholder="Set ADMIN_CONSOLE_PASSWORD value" />
+        <button id="save-admin-password">Save Session Password</button>
+      </section>
+
+      <section class="panel" style="margin-bottom:1rem;">
+        <h2>Real-time Traffic</h2>
+        <div id="traffic-stats"></div>
+      </section>
+
+      <section class="panel" style="margin-bottom:1rem;">
+        <h2>Resolver Status</h2>
+        <pre id="resolver-status"></pre>
+      </section>
+
+      <section class="panel" style="margin-bottom:1rem;">
+        <h2>Manual Refresh</h2>
+        <input id="refresh-id" placeholder="Metadata ID (tmdb-550 or tt123)" />
+        <input id="refresh-season" placeholder="Season" value="1" />
+        <input id="refresh-episode" placeholder="Episode" value="1" />
+        <button id="refresh-button">Force Refresh</button>
+        <pre id="refresh-output"></pre>
+      </section>
+
+      <section class="panel">
+        <h2>Bandwidth Monitor (egress)</h2>
+        <canvas id="bandwidth-chart" width="1000" height="240" style="width:100%;background:#0f1320;border-radius:8px;"></canvas>
+      </section>
+    </main>
+    <script src="/admin-console.js"></script>
+  </body>
+</html>
